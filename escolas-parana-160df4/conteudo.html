@@ -295,7 +295,7 @@ footer dd{margin:0}
     <p id="heroSub"></p>
     <span class="stamp"><i></i>Atualizado automaticamente · LDD salva em 08/10/2026 13:23</span>
   </div>
-  <div class="hactions"><div class="corte"><label for="corte">Data de corte</label><input type="date" id="corte" value="2026-10-08"></div></div>
+  <div class="hactions"><div class="corte"><label for="corte">Data de corte</label><input type="date" id="corte" value="2026-10-09"></div></div>
 </div>
 
 <div class="filters"><div class="wrap">
@@ -433,7 +433,7 @@ const pc=(a,b)=>b?(100*a/b):0;
 const pcs=(a,b)=>b?pc(a,b).toLocaleString('pt-BR',{maximumFractionDigits:1})+'%':'—';
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
-let corte=dayOf('2026-10-08');
+let corte=dayOf('2026-10-09');
 function derive(){
   for(const d of docs){
     d.emit=d.st!==ST.ne; d.dEm=d.dE0??d.dEmi;
